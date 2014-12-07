@@ -1,0 +1,7 @@
+<%= form_tag(fizzbuzz_path, method: "get") do %>
+  <%= label_tag(:n1, "First number:") %>
+  <%= text_field_tag(:n1) %>
+  <%= label_tag(:n2, "Second number:") %>
+  <%= text_field_tag(:n2) %>
+  <%= submit_tag("Show me the FizzBuzz!") %>
+<% end %>
